@@ -87,7 +87,7 @@ def callback_worker(call):
     elif call.data == 'no':
     	bot.send_message(call.message.chat.id, 'Блин, я не угадал : ( \n Идем дальше напиши /put')
     elif call.data == 'B':
-    	bot.send_message(call.message.chat.id, u'Спасибо за твой выбор ахахаха! \n Ты тоже самый лучший ' + name + u' Я еще сделал гороскоп напиши /gor')
+    	bot.send_message(call.message.chat.id, u'Спасибо за твой выбор ахахаха! \n Ты тоже самая лучшая ' + name + u' Я еще сделал гороскоп напиши /gor')
     elif call.data == 'A':
     	bot.send_message(call.message.chat.id, u'Блок Полосина пройдет хорошо и ВМК останется живым, Тих Тих будет спать, а Бобылева и Новикова надеемся будут учить, а Крицков будет мягким, и ты сдашь сессию хорошо \n На этом мой бот все')
 
