@@ -68,7 +68,7 @@ def get_name(message):
 def get_age(message):
 	global age
 	age = int(message.text)
-   	if age != 0:
+   	if age != 0
 
 		keyboard = types.InlineKeyboardMarkup() 
 		key_yes = types.InlineKeyboardButton('Да', callback_data = 'yes')
